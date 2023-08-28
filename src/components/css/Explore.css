@@ -1,0 +1,150 @@
+.explore-one li button {
+    color: white !important;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid black;
+    border-radius: 28px;
+    height: 55px;
+    padding-left: 3px;
+    padding-top: 0px;
+    margin-top: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: -5px;
+    transition: all 400ms;
+}
+
+.explore-one li button:hover {
+    color: black !important;
+    background-color: white;
+}
+
+.explore-one li {
+    list-style-type: none;
+}
+
+.explore-two h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.explore-two h2 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.search_bar {
+    border: 1px solid white;
+    width: 50%;
+    height: 60px;
+    border-radius: 30px;
+    margin-left: 0px;
+    padding-left: 50px;
+    margin-top: 30px;
+}
+
+.explore-two i {
+    margin-left: 25px;
+    margin-top: 54px;
+    position: absolute;
+    color: #565564;
+}
+
+.sep-a>a {
+    padding-top: 40px;
+    padding-left: 300px;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lowerList,
+.upperList {
+    display: flex;
+}
+
+.explore-three li button {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 30px;
+    list-style: none;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.explore-three li {
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.video-background {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 90vh;
+}
+
+.video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+.content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+@media(min-width:320px) and (max-width:425px) {
+
+    .explore-two h1 {
+        font-size: 22px;
+        text-align: center;
+        margin-top: 30px;
+        word-wrap: normal;
+
+    }
+
+    .explore-two h2 {
+        font-size: 8px;
+        text-align: center;
+        margin-top: 20px;
+        word-wrap: normal;
+    }
+
+    .search_bar {
+
+        width: 21%;
+        height: 50px;
+
+    }
+}

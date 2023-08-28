@@ -1,0 +1,228 @@
+.on-image i,
+.on-image a {
+    display: none;
+    transition: all 400ms;
+}
+
+.displayOnHover:hover .on-image i,
+.displayOnHover:hover .on-image a {
+    display: block;
+    transform: scale(1);
+    margin-bottom: -30px;
+}
+
+.displayOnHover:hover {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px grey, 0 0 5px gray;
+}
+
+
+.main-popular {
+    width: 23rem;
+    height: 24rem
+}
+
+.big-image {
+    width: 22rem;
+    height: 17rem;
+    border-radius: 10px
+}
+
+.card-title img {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+
+}
+
+.card-title2 {
+    margin-right: -20px;
+}
+
+.card-title2 i {
+    font-size: 14px;
+    margin: 3px;
+    color: #9e9ea7;
+
+}
+
+.card-title2>a {
+    color: #3d3d4e !important;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 16px;
+}
+
+.title {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.on-image {
+    margin-top: -50px;
+    background-color: transparent;
+    display: flex;
+}
+
+
+.on-image i {
+    background-color: white;
+    width: 40px;
+    height: 38px;
+    border-radius: 7px;
+    padding-top: 14px;
+    padding-left: 14px;
+    font-size: 15px;
+    transition: all 400ms;
+    margin-top: -10px;
+}
+
+.on-image i:hover {
+    color: grey;
+}
+
+.image-text {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.pop:hover {
+    color: #ea4c89;
+}
+
+.popular-btn {
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #CCCCCC;
+    color: white;
+    cursor: pointer;
+    padding: 3px 3px 1px;
+    line-height: 1;
+    border-radius: 3px;
+    margin-left: 5px;
+    transition: all 400ms;
+}
+
+
+
+.popular-btn:hover {
+    transform: scale(1);
+    background: #ea4c89;
+    color: rgba(255, 255, 255, 0.85)
+}
+
+.signUp {
+    margin-top: -30px;
+    margin-left: 38px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.signUp button {
+    color: white;
+    background-color: #ea4c89;
+    border: 1px solid #ea4c89;
+    width: 245px;
+    height: 40px;
+    border-radius: 5px;
+    transition: all 400ms;
+}
+
+.signUp button:hover {
+    transform: scale(1);
+    background-color: #e4709c;
+    border: 1px solid #e4709c;
+
+}
+
+.signUp a {
+    margin-left: 60px;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .main-popular {
+        width: 97%;
+    }
+
+    .big-image {
+        width: 18rem;
+        height: 15rem;
+        border-radius: 10px
+    }
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+    .main-popular {
+        width: 97%;
+    }
+
+    .big-image {
+        width: 22rem;
+        height: 15rem;
+        border-radius: 10px;
+        margin-left: -8px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 580px) {
+    .main-popular {
+        width: 94%;
+    }
+
+    .big-image {
+        width: 24rem;
+        height: 15rem;
+        border-radius: 10px
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width:1000px) {
+    .main-popular {
+        width: 31%;
+    }
+
+    .big-image {
+        width: 14rem;
+        height: 15rem;
+        border-radius: 10px
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .main-popular {
+        width: 23rem;
+        height: 24rem
+    }
+
+    .big-image {
+        width: 22rem;
+        height: 17rem;
+        border-radius: 10px
+    }
+
+}
